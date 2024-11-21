@@ -1,0 +1,130 @@
+ /* Deful margin and padding box sizing Start  */
+ *{
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+    }
+/* Deful margin and padding box sizing End */
+
+ body{
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+ .conteiner{
+    max-width: 1000px;
+    background-color: rgb(237, 237, 237);
+    margin: 0 auto;
+    padding: 10px;
+ }
+
+ /* This is header Section Start */
+
+ .profile-img{
+    width: 150px;
+    height: 150px;
+    border: solid #ddd 3px;
+    border-radius: 50%;
+    float: left;
+    
+ }
+
+ .my-name{
+    float: left;
+    padding:10px;
+    margin:20px 50px;
+ }
+
+ .contact-datels{
+    float:right;
+    padding:10px;
+    margin: 20px 50px;
+ }
+ .contact-datels a{
+    text-decoration: none;
+    color:black;
+    padding:10px;
+ }
+ .contact-datels a:hover{
+    color: tomato;
+    text-decoration: underline;
+}
+/* This is header Section End */
+
+.div-clear{
+    clear: both;
+}
+hr{
+    border: solid rgb(109, 109, 109) 3px;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+
+/* This is main Section start */
+
+.left-div{
+    float:left;
+    width:30%;
+}
+
+.right-div{
+    float:left;
+    width:70%;
+}
+
+/* .common-hr{
+    border: solid white 2px;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+} */
+
+.department{
+    font-style: italic;
+    margin: 5px auto;
+    
+}
+
+.Education-datels{
+    float: left;
+    width: 35%;
+}
+
+.Education-right-div{
+    float:left;
+    
+}
+
+/* This is main Section End */
+
+
+/* This is Footer Section start */
+
+.footer-div{
+    background-color:dimgrey;
+    text-align: center;
+    padding: 10px;
+    margin: 15px 0;
+}
+
+.footer-div a{
+    color:black;
+    text-decoration: none;
+    margin:20px;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.footer-div a:hover{
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    background-color: tomato;
+}
+
+.footer-div p{
+    color:white;
+    margin-top: 20px;
+}
+/* This is Footer Section End */

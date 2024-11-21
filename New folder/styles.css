@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    border-radius: 50%;
+    border: 2px solid black;
+    height:300px;
+    float: left;
+}
+.Raselahmed{
+    font-size:35px;
+    padding:40px;
+    margin: 0 200px;
+    float: left;
+
+}
+.Contact{
+    padding:40px;
+    margin: 0 200px;
+    float: left;
+}
+.div-clear{
+    clear: both;
+    padding: 10px;
+}
+.left-div{
+    float: left;
+    width: 30%;
+}
+.right-div{
+    width: 70%;
+}
